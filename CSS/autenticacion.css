@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(240, 240, 240); 
+    font-family: 'Calibri', Calibri, sans-serif;
+    text-align: center; 
+}
+.login {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid rgb(224, 219, 219);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-container {
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #010101;
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="button"],
+input[type="checkbox"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 219, 219); 
+}
+
+input[type="button"] {
+    background-color: rgb(0, 123, 255); 
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(0, 86, 179); 
+}
+
+.remember-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.remember-container input[type="checkbox"] 
+{
+    margin-right: -170px; 
+}
+
+.centered-link {
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.social-login {
+    text-align: center;
+}
+.social-login img {
+    width: 150px; 
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .login {
+        width: 90%;
+        max-width: none;
+        margin: 20px auto;
+    }
+}

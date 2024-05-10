@@ -1,0 +1,20 @@
+.contenedor {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.mi-boton {
+  padding: 10px 30px;
+  background-color: rgb(13, 111, 216);
+  color: white; 
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}

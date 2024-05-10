@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticación de Usuario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./CSS/autenticacion.css">
+</head>
+<body>
+    <div class="login">
+        <div class="title-container">
+            <h2>Inicio</h2>
+        </div>
+        <form id="login" method="get" action="login.php">
+            <div>
+                <label><b>Nombre de Usuario</b></label><br>
+                <input type="text" name="Uname" id="Uname" placeholder="Nombre de Usuario"><br><br>
+            </div>
+             <div>
+                <label><b>Contraseña</b></label><br>
+                <input type="password" name="Pass" id="Pass" placeholder="Contraseña"><br><br>
+            </div>
+            <div class="remember-container">
+                <input type="checkbox" id="check">
+                <span>Recordar</span>
+            </div>
+            <div>
+            <br><br>
+                <input type="button" name="log" id="log" value="Iniciar Sesión"><br><br>
+            </div>
+            <div class="centered-link">
+                <a href="./RECUPERAR CONTRASEÑA.html">¿Olvidó su contraseña?</a>
+            </div>
+        </form>
+        <div class="social-login">
+            <p>O inicie sesión con:</p>
+            <a>
+                <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" alt="Google Sign-In">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
